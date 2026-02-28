@@ -1,0 +1,77 @@
+2026-02-26 20:35:16,164 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-02-26 22:53:15,831 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 22:53:22,329 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:19:48,887 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:19:54,502 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:22:18,715 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:36,495 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:37,293 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:37,461 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:37,619 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:37,783 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:37,947 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:38,094 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:38,257 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:34:38,400 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:36:10,349 - main - ERROR - Login error: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2026-02-26 23:36:34,199 - httpx - INFO - HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 400 Bad Request"
+2026-02-26 23:36:53,355 - httpx - INFO - HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 400 Bad Request"
+2026-02-26 23:44:31,575 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-26 23:45:01,592 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-27 12:20:55,177 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-27 12:20:55,182 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-27 12:21:28,286 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-27 12:21:28,288 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-27 13:19:16,375 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-27 13:19:50,633 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-27 13:22:20,484 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-27 13:30:53,453 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-27 13:35:18,077 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 10:10:25,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:25,336 - llm_layer - ERROR - Risk assessment error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:25,337 - engines.risk_engine - WARNING - LLM risk assessment failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:31,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:31,422 - llm_layer - ERROR - Sentiment analysis error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:31,422 - engines.reputation_engine - WARNING - LLM sentiment analysis failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:35,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:35,887 - llm_layer - ERROR - Risk assessment error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:35,887 - engines.risk_engine - WARNING - LLM risk assessment failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:37,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:37,807 - llm_layer - ERROR - Risk assessment error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:37,807 - engines.risk_engine - WARNING - LLM risk assessment failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:38,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:38,873 - llm_layer - ERROR - Sentiment analysis error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:38,873 - engines.reputation_engine - WARNING - LLM sentiment analysis failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:43,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:43,417 - llm_layer - ERROR - Sentiment analysis error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:43,417 - engines.reputation_engine - WARNING - LLM sentiment analysis failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:44,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-28 10:10:44,068 - llm_layer - ERROR - Risk assessment error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:10:44,068 - engines.risk_engine - WARNING - LLM risk assessment failed, using deterministic only: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-02-28 10:12:36,974 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 10:13:06,983 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 10:13:36,989 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 11:11:41,668 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 11:15:30,866 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 11:45:26,777 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 11:45:26,779 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 11:45:37,195 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 11:45:37,197 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 11:45:44,781 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 11:45:44,784 - main - ERROR - Authentication error: module 'jwt' has no attribute 'JWTError'
+2026-02-28 12:19:04,150 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:19:34,161 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:20:04,164 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:20:34,177 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:21:04,180 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:21:34,195 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:22:04,210 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:22:34,219 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:23:04,233 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:23:34,245 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:24:04,255 - main - ERROR - Authentication error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
+2026-02-28 12:27:36,193 - main - ERROR - Login error: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
